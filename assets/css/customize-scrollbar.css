@@ -1,0 +1,16 @@
+::-webkit-scrollbar {
+    width: 12px;
+    position: absolute;
+    right: 0;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+    position: absolute;
+    background: linear-gradient(0deg, orange, yellow);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    position: absolute;
+    background: linear-gradient(0deg, yellow, orange);
+}

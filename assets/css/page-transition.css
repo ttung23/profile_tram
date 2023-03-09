@@ -1,0 +1,10 @@
+#home, #about-me, #picture, #social-network, #service, #contact {
+    display: none;
+    /* position: absolute; */
+    animation: page-translate 1s 1 ease-in-out;
+}
+
+.show {
+    display: block !important;
+}
+

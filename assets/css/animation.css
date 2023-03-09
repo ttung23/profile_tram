@@ -1,0 +1,43 @@
+/* KEYFRAME */
+@keyframes translateX {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(24px);
+    }
+}
+
+@keyframes space {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+        height: 100%;
+    }
+}
+
+@keyframes textr {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+        padding-top: 24px;
+    }
+}
+
+@keyframes page-translate {
+    from {
+        right: 100%;
+    }
+
+    to {
+        right: 0;
+    }
+}
